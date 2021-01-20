@@ -193,6 +193,7 @@
   	<time datetime="2021-01-20T03:19:21.377Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-01-20</time>
 </a>
         
+        
       </header>
     
     <div class="article-entry" itemprop="articleBody">
@@ -218,7 +219,7 @@
 
       
 
-      
+      <!-- 
         
 <div class="share-btn share-icons tooltip-left">
   <div class="tooltip tooltip-east">
@@ -269,7 +270,7 @@
 </div>
 
 <div class="mask js-mask"></div>
-      
+       -->
 
       
         <!--MOB SHARE BEGIN-->
@@ -292,6 +293,7 @@
 <script id="-mob-share" src="http://f1.webshare.mob.com/code/mob-share.js?appkey={{ theme.shareSDKappkey }}"></script>
 <!--MOB SHARE END-->
       
+
       <div class="clearfix"></div>
     </div>
   </div>
@@ -346,6 +348,28 @@
 
   
 
+
+<!-- gitalk -->
+
+  <div id="gitalk-container"></div>
+  <div id="gitalk-container"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
+
+<script>
+var gitalk = new Gitalk({
+  clientID: '',
+  clientSecret: '',
+  repo: 'https://github.com/Junnozyp/Junnozyp.github.io',
+  owner: 'Junnozyp',
+  admin: ['Junnozyp'],
+  id: md5(window.location.pathname),
+  distractionFreeMode: true
+})
+
+gitalk.render('gitalk-container')
+</script>
 
           </div>
         </div>
