@@ -341,6 +341,30 @@
   </div>
 </article>
 
+<!-- giteement -->
+
+    <div id="giteement-ctn"></div>
+    
+      <link rel="stylesheet" href="/junno_code_blog.gitee.io/assets/default.css">
+      <script src="/junno_code_blog.gitee.io/assets/giteement.browser.js"></script>
+    
+    <script>
+    var giteement = new Giteement({
+      id: '20210120111921',
+      owner: 'Junno',
+      repo: 'junno_code_blog.gitee.io',
+      backcall_uri: 'https://junno_code_blog.gitee.io/junno_code_blog.gitee.io',
+      oauth_uri: 'https://cors-anywhere.herokuapp.com/https://gitee.com/oauth/token',
+      oauth: {
+        client_id: '58ef639370918926aafd9ded93d70a39ef1f2576add17060db59ab75b3214f46',
+        client_secret: 'c4cde306c5b3478853a3c59220993f9909190a82eaed5ecfaa715547b92d2a28'
+      },
+    })
+    giteement.render('giteement-ctn')
+    </script>
+  
+
+
   
 <nav id="article-nav">
   
@@ -389,69 +413,14 @@
   
 
   
-  <div id="gitment-ctn"></div> 
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-<script src="https://www.wenjunjiang.win/js/gitment.js"></script>
-<script>
-var gitment = new Gitment({
-  id: "http://junno_code_blog.gitee.io/junno_code_blog.gitee.io/junno_code_blog.gitee.io/2021/01/20/hello-world/",
-  owner: 'Junnozyp',
-  repo: 'Junnozyp.github.io',
-  oauth: {
-    client_id: '0a67648196707ab381ac',
-    client_secret: '39863c87e0f0e3311c8b9bb151ed37e809d2a05d',
-  },
-})
-gitment.render('gitment-ctn')
-</script>
-  
 
   
-  
-  <div id="gitalk-container"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
-
-<script>
-var gitalk = new Gitalk({
-  clientID: '',
-  clientSecret: '',
-  repo: 'Junnozyp.github.io',
-  owner: 'Junnozyp',
-  admin: ['Junnozyp'],
-  id: md5(window.location.pathname),
-  distractionFreeMode: true
-})
-
-gitalk.render('gitalk-container')
-</script>
   
 
 
 
 <!-- gitalk -->
-<!-- 
-  <div id="gitalk-container"></div>
-  <div id="gitalk-container"></div>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
-<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
-
-<script>
-var gitalk = new Gitalk({
-  clientID: '',
-  clientSecret: '',
-  repo: 'Junnozyp.github.io',
-  owner: 'Junnozyp',
-  admin: ['Junnozyp'],
-  id: md5(window.location.pathname),
-  distractionFreeMode: true
-})
-
-gitalk.render('gitalk-container')
-</script>
- -->
+<!--  -->
 
 
 
@@ -562,6 +531,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">设计</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">杂谈</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">最短路径</a>
               </li>
              
@@ -571,14 +548,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">Algorithm</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">设计</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">杂谈</a>
               </li>
             
             <div class="clearfix"></div>
